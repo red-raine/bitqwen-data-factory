@@ -1,0 +1,90 @@
+{
+  "mode": "free",
+  "providers": {
+    "aihubmix": {
+      "enabled": true,
+      "models": [
+        "coding-glm-5.2-free",
+        "coding-glm-5.1-free",
+        "coding-glm-5-free",
+        "coding-glm-4.7-free",
+        "coding-glm-5-turbo-free",
+        "coding-kimi-k3-free",
+        "kimi-for-coding-free",
+        "k2.6-code-preview-free",
+        "coding-minimax-m3-free",
+        "coding-minimax-m2.7-free",
+        "coding-minimax-m2.5-free",
+        "glm-4.7-flash-free",
+        "gemini-3.6-flash-free",
+        "gemini-3.5-flash-lite-free",
+        "laguna-xs-2.1-free"
+      ],
+      "daily_cap": 7500,
+      "sleep_sec": 0.8,
+      "weight": 50,
+      "base_url": "https://aihubmix.com/v1",
+      "key_env": "AIHUBMIX_API_KEY"
+    },
+    "litellm": {
+      "enabled": true,
+      "models": [
+        "deepseek-v4-flash",
+        "xiaomi/mimo-v2.5-pro",
+        "gpt-oss:120b-cloud"
+      ],
+      "daily_cap": 0,
+      "sleep_sec": 0.5,
+      "weight": 30,
+      "base_url": "http://host.docker.internal:4000/v1",
+      "key_env": "LITELLM_MASTER_KEY"
+    },
+    "openrouter": {
+      "enabled": true,
+      "models": [
+        "inclusionai/ling-3.0-flash:free",
+        "cohere/north-mini-code:free",
+        "google/gemma-4-31b-it:free"
+      ],
+      "daily_cap": 100,
+      "sleep_sec": 5.0,
+      "weight": 10,
+      "key_env": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1"
+    },
+    "hf": {
+      "enabled": true,
+      "models": [
+        "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+        "Qwen/Qwen2.5-Coder-32B-Instruct",
+        "codellama/CodeLlama-34b-Instruct-hf"
+      ],
+      "daily_cap": 500,
+      "sleep_sec": 3.0,
+      "weight": 10,
+      "key_env": "HF_TOKEN"
+    }
+  },
+  "prompts": {
+    "prompt_file": "prompts/default.jsonl",
+    "categories": {
+      "func_gen": 0.6,
+      "cot_debug": 0.25,
+      "syllogism": 0.15
+    }
+  },
+  "budget": {
+    "daily_limit": 0.0,
+    "currency": "USD",
+    "spent_today": 0.0
+  },
+  "output": {
+    "dir": "/data",
+    "format": "jsonl",
+    "split_by_date": true
+  },
+  "rate_limits": {
+    "default_per_min": 5,
+    "default_per_day": 500
+  }
+}

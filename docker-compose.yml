@@ -1,0 +1,57 @@
+services:
+  data-factory:
+    build: .
+    image: bitqwen/data-factory:1.2
+    container_name: bitqwen-data-factory
+    restart: always  # restart on crash — keeps running 24/7
+    volumes:
+      # Persist generated JSONL + .progress.json + usage.json across restarts.
+      # The named volume `data-factory-data` survives `docker compose down`
+      # (only `docker compose down -v` removes it). The bind mount also works
+      # for local inspection.
+      - ./data:/data
+      - data-factory-data:/data/persistent
+      # Config-driven operation: mount factory_config.json and the prompts/
+      # directory so users can edit them WITHOUT rebuilding the image. The
+      # container reads factory_config.json on startup AND every loop
+      # iteration, so edits take effect on the next iteration.
+      #   - docker compose exec bitqwen-data-factory python generate.py --status
+      #   - edit factory_config.json on the host -> next loop picks it up
+      # factory_config.json is mounted read-WRITE so CLI commands run inside
+      # the container (--mode, --budget, --balance, --add-prompts) can persist
+      # their changes back to the host file.
+      - ./factory_config.json:/app/factory_config.json
+      # prompts/ is read-only — prompt files are authored on the host.
+      - ./prompts:/app/prompts:ro
+    environment:
+      # =========================================================================
+      # FREE-MODE-ONLY providers. The factory spends NOTHING.
+      # =========================================================================
+      # PRIMARY external free generator — AIHubMix (15 free coding models,
+      # $0/1M tokens). 5 req/min per model, 500 req/day per model.
+      - AIHUBMIX_API_KEY=${AIHUBMIX_API_KEY:-}
+      - AIHUBMIX_BASE_URL=${AIHUBMIX_BASE_URL:-https://aihubmix.com/v1}
+      # LOCAL generator — LiteLLM local proxy (free, unlimited, no key).
+      # The proxy runs on the host (or a sibling container); from inside this
+      # container use the special DNS name `host.docker.internal` to reach
+      # the host's localhost:4000. Override via .env if your proxy differs.
+      - LITELLM_BASE_URL=${LITELLM_BASE_URL:-http://host.docker.internal:4000/v1}
+      - LITELLM_MASTER_KEY=${LITELLM_MASTER_KEY:-}
+      # FREE generator — HuggingFace Inference API (free)
+      - HF_TOKEN=${HF_TOKEN:-}
+      # FREE generator — OpenRouter free models (free)
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+      # Together AI is INTENTIONALLY NOT passed — disabled in free-only mode
+      # (it would spend the $5 budget). SiliconFlow non-free is also disabled.
+    # Optional: limit memory so it stays a "tiny" container
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+# Named volume for usage tracking that persists across `docker compose down`.
+# /data/usage.json (rate-limit counters) lives on the bind mount above so it
+# is visible on the host too; this named volume is an extra safety net for
+# any future state we want to keep host-independent.
+volumes:
+  data-factory-data:

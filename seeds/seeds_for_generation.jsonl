@@ -1,0 +1,500 @@
+{"text": "<|im_start|>user\nStep through this Python list flattening function to find why nested lists are skipped.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python async task cancellation to identify why the coroutine never exits.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug this Python class inheritance chain to find why super() resolves incorrectly.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nWalk through this Python slicing logic to explain why the step parameter breaks ordering.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python dictionary merge to find why nested keys are overwritten.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug this Python iterator to identify why StopIteration is swallowed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nStep through this Python file read loop to find why only half the file is processed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python regex group capture to identify why named groups return None.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug this Python subprocess call to find why stdout is empty.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nStep through this Python heap push/pop sequence to find why ordering is reversed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python functools.lru_cache behavior to identify why cache misses spike.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug this Python context manager to find why exceptions are suppressed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nStep through this Python type hint resolution to find why generics fail.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python JSON serialization to identify why custom objects lose fields.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug this Python lambda closure to find why variables bind late.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nStep through this Python multiprocessing queue to find why items vanish.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python decorator stacking to identify why return values change.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug this Python property getter to find why recursion occurs.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nStep through this Python import hook to find why modules load twice.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace this Python dataclass repr to identify why fields appear out of order.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python treats strings as sequences but not as collections.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `None` can ever be equal to a falsy integer.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate whether Python’s `is` operator implies semantic equality.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python integers behave like singletons for small values.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `dict` ordering guarantees semantic stability.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python treats functions as first‑class objects.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate whether Python’s `yield` implies coroutine semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `True` and `False` are integers.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `range` is a container or a sequence.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `set` cannot contain lists.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `tuple` immutability implies hashability.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `float` cannot represent all decimal values.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `bytes` and `bytearray` share semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `global` keyword does not affect module imports.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `with` statement implies transactional semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `__dict__` is not always present.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `super()` resolves methods deterministically.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `async` functions return coroutines.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine whether Python’s `__slots__` affects inheritance semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Python’s `__eq__` does not imply `__hash__`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python lists preserve order. Some ordered types are immutable. Determine whether any immutable ordered type must be a tuple.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python exceptions inherit from BaseException. Some warnings do not. Determine whether warnings can be raised as exceptions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python iterators exhaust. Some generators restart. Determine whether restarting violates iterator protocol.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python classes inherit from object. Some objects do not behave like classes. Determine whether inheritance implies behavior.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python sets are unordered. Frozen sets are sets. Determine whether frozen sets are unordered.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python modules define `__dict__`. Some objects define `__dict__`. Determine whether all objects are modules.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python coroutines require scheduling. Some async generators are coroutines. Determine whether async generators require scheduling.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python strings are sequences. Some sequences are not hashable. Determine whether strings are special sequences.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python comprehensions create new objects. Some comprehensions capture outer variables. Determine whether captured variables are copied.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python integers are immutable. Some immutable objects are interned. Determine whether all integers are interned.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python decorators wrap callables. Some decorators return non‑callables. Determine whether decorators preserve callability.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python file objects are iterable. Some iterables are infinite. Determine whether file objects can be infinite.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python namedtuples are tuples. Some tuples are not namedtuples. Determine whether namedtuples add semantic constraints.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python dicts map keys to values. Some dicts use custom hashing. Determine whether custom hashing affects equality.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python functions have code objects. Some callables do not. Determine whether all callables are functions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python classes have MRO. Some objects do not. Determine whether all objects are classes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python generators yield values. Some yield from other generators. Determine whether delegation changes generator identity.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python comprehensions evaluate expressions. Some expressions mutate state. Determine whether comprehensions can mutate state.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python coroutines await values. Some awaitables are not coroutines. Determine whether await implies coroutine.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAll Python dicts preserve insertion order. Some mappings do not. Determine whether dict is a special mapping.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python instruction to require multi‑file reasoning.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExpand this Python debugging instruction into a multi‑step diagnostic workflow.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nCompress this Python refactoring instruction into a single concise directive.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAdd constraints to this Python function design instruction to increase difficulty.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRemove unnecessary constraints from this Python class design instruction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python testing instruction to require property‑based tests.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python data processing instruction to require streaming semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAdd a real‑world scenario to this Python concurrency instruction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRemove the scenario and generalize the Python concurrency instruction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python parsing instruction to require AST manipulation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python optimization instruction to require profiling.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAdd an evaluation metric to this Python algorithm instruction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python debugging instruction to require step‑by‑step output.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python code generation instruction to require template rendering.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python data analysis instruction to require statistical validation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python class design instruction to require mixin composition.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAdd a hypothetical constraint to this Python scheduling instruction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRemove the hypothetical constraint and generalize the instruction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python packaging instruction to require dependency resolution.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nRewrite this Python CLI instruction to require subcommand routing.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `sorted([float('nan'), 1, 2])` behaves inconsistently across Python versions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `0.1 + 0.2 != 0.3` in Python.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `True == 1` but `True is not 1`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `[] is []` is False but `() is ()` is True.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `hash(-1) == hash(-2)` in some Python versions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `dict.fromkeys(['a','b'], [])` causes shared state.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `lambda x: x` inside a loop captures late binding.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `re.match` behaves differently from `re.search`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `int(\"09\")` fails in Python 2 but not Python 3.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `list.remove()` raises ValueError even when the element exists.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `__getattr__` is not called for existing attributes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `asyncio.sleep(0)` yields control.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `defaultdict(list)` shares no state but `dict.setdefault` does.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `functools.partial` changes function signatures.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `pickle` cannot serialize lambda functions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `deepcopy` fails on objects with custom `__slots__`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `multiprocessing` spawns extra processes on Windows.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `json.dumps` cannot serialize sets.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine why `str.join` fails when joining non‑strings.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `zip` truncates to the shortest iterable.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain the exact mutation order when a list is modified through overlapping slice assignments.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the final values of variables after chained walrus operators inside a list comprehension.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the behavior of a generator that yields inside a `try/except/finally` block with nested `yield from`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Python resolves attribute access when both a descriptor and `__getattr__` are present.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the MRO of a class with triple‑diamond inheritance and overridden methods.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of a function using `nonlocal` inside nested closures with shadowed names.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a dataclass with `frozen=True` and a mutable default still allows mutation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the exact order of evaluation in an f‑string containing multiple side‑effecting function calls.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the behavior of `asyncio.wait` when tasks raise exceptions at different times.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `deepcopy` of an object with custom `__reduce_ex__` behaves differently across Python versions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the final state of a dictionary after multiple `setdefault` calls with shared mutable defaults.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the behavior of `functools.singledispatch` when subclass relationships conflict.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `contextvars` propagate across nested `asyncio` tasks and thread pools.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the output of a function using both `*args` and `**kwargs` with partial application and currying.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the behavior of a custom iterator whose `__next__` mutates the underlying iterable.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `hash()` of certain integers collides due to internal optimizations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `zip_longest` when the fill value is a mutable object.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of a function using `globals()` mutation inside a closure.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `weakref.finalize` interacts with objects that have custom `__del__`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `bisect` when the list contains objects with inconsistent comparison operators.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `sorted()` when the key function mutates the items during sorting.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `asyncio.run()` cannot be nested and how to emulate nesting safely.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `uuid.uuid1()` when system clock is adjusted backwards.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `filter(None, iterable)` when the iterable contains custom objects with truthiness overrides.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Python decides truthiness when both `__bool__` and `__len__` are defined.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the exact order of logs in a script mixing `await`, `Promise.resolve`, `setTimeout`, and synchronous code.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how prototype lookup behaves when an object has a property shadowing a getter on its prototype.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Array.map` on an array with holes when the callback mutates the array length.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of chained `Promise.then` calls where one returns a thenable that throws synchronously.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why `Object.freeze` does not recursively freeze nested objects unless explicitly done.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of destructuring assignment when default values reference variables declared later.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `Array.reduceRight` when the reducer mutates the array during reduction.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Symbol.iterator` interacts with custom objects that also define `Symbol.asyncIterator`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Proxy` traps when both `get` and `has` are overridden.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `JSON.stringify` when an object defines both `toJSON` and a replacer function.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Promise.race` behaves when one entry is a synchronous value and another is a rejected promise.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Array.flatMap` when the callback returns arrays containing holes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `Object.assign` when the source object has getters with side effects.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `WeakMap` behaves when keys are objects that later become unreachable.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `RegExp.lastIndex` when using global and sticky flags together.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `Array.sort` when the comparator returns inconsistent ordering results.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `import` hoisting interacts with circular dependencies.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Promise.any` when all promises reject with different error types.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `structuredClone` when cloning objects containing functions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `BigInt` interacts with `Math` functions that expect numbers.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `URLSearchParams` when duplicate keys are inserted.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `Array.every` on an empty array with a callback that throws.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Proxy` revocation affects previously obtained references.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Intl.NumberFormat` when formatting extremely large numbers.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict the output of `Array.reverse` when the array contains objects referenced multiple times.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether a function using nested mutable borrows compiles when lifetimes overlap indirectly.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how lifetime elision rules apply to a function returning a reference to a field of a parameter.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `RefCell` when multiple borrows occur across different branches of a match.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether a struct containing `PhantomData<&'a T>` enforces lifetime constraints correctly.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Pin<&mut T>` prevents moves even when wrapped in custom projection methods.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Vec::drain` when the drained range overlaps with a later mutation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether a trait object using `dyn Trait + Send` is object‑safe when the trait has generic methods.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `async move` captures references and whether the future becomes `'static`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Arc<Mutex<T>>` when a panic poisons the mutex inside a spawned thread.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether `Iterator::cycle` leaks memory when cycling over a large iterator.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `slice::split_inclusive` handles edge cases with empty slices.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `HashMap::entry` when the key type has inconsistent `Eq` and `Hash`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether `Box::leak` interacts safely with lifetimes when used inside a loop.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Option::transpose` behaves with nested `Result<Option<T>, E>`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Vec::split_off` when splitting at the exact length boundary.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether `Send` auto‑trait propagates through a struct containing `Cell<T>`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Pin<Box<T>>` interacts with custom `Drop` implementations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `slice::rsplit` when splitting on a pattern that appears at boundaries.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether `Clone` of a type containing `Rc<RefCell<T>>` duplicates borrow state.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Iterator::inspect` behaves when the inspector closure mutates external state.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `Vec::dedup` when equality is defined via a custom comparator.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether `Send` is implemented for a generic struct containing `PhantomData<T>`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how `Arc::strong_count` behaves when clones are created inside async tasks.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine the behavior of `slice::strip_prefix` when the prefix is longer than the slice.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict whether `Iterator::collect` into a `HashSet` preserves insertion order.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a Python generator pipeline into an equivalent Rust iterator chain and explain differences.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how a JS async function would behave if rewritten using Python `asyncio` semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Rust’s borrow checker would treat a Python‑style closure capturing outer variables.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDetermine how to rewrite a Python `contextmanager` as a Rust RAII guard.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict differences between JS `Promise.all` and Python `asyncio.gather` in error propagation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Python’s `dict` insertion order compares to Rust’s `HashMap` iteration order.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a JS prototype chain example into Rust trait objects and explain limitations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how Python’s `yield from` maps to JS async generators.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Rust’s `Pin` compares to JS’s immutability semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a Python decorator into a Rust procedural macro conceptually.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how JS event loop phases compare to Python’s `asyncio` scheduling.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Rust’s `Result<T, E>` maps to JS exceptions and Python exceptions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a Python list comprehension into a Rust iterator pipeline.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how Python’s `weakref` maps to JS `WeakMap` and Rust `Weak<T>`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain differences between Python’s GIL and JS’s single‑threaded event loop.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a JS `Proxy` trap into a Python `__getattr__`/`__setattr__` combo.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how Rust’s ownership model would treat JS objects passed by reference.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how Python’s `asyncio.Event` compares to Rust’s `tokio::sync::Notify`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a JS `Array.reduce` into a Rust `fold` and Python `functools.reduce`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how Python’s `multiprocessing` pickling compares to Rust’s `serde` serialization.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain how JS’s `structuredClone` compares to Python’s `copy.deepcopy` and Rust’s `Clone`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a Python `dataclass` into a Rust struct with derived traits.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nPredict how JS’s `Symbol.iterator` maps to Python’s `__iter__` and Rust’s `Iterator`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain differences between Python’s `asyncio.Semaphore` and Rust’s `tokio::Semaphore`.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nConvert a Python metaclass example into a JS class factory and a Rust macro.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of an isolated subinterpreter (PEP 684) to explain why sharing custom C-extension objects raises RuntimeError.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the per-interpreter GIL lock acquisition phase during a cross-interpreter channel send() operation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a thread-local variable in the main interpreter leaks into a subinterpreter sharing the same OS thread.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a CPython deadlock where a C-extension releases the GIL but blocks on a per-interpreter state lock.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the memory layout of ob_refcnt when an object is passed via shared memory between two isolated subinterpreters.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the module import sequence inside a new subinterpreter to determine if sys.modules is deeply copied or re-initialized.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why registering an atexit handler in a subinterpreter fails to trigger when the main interpreter exits.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the behavior of faulthandler when a SIGSEGV occurs in a background thread running a subinterpreter.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the GC traversal of a cross-interpreter object proxy to find where cyclic garbage collection fails.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the impact on the CPython arena allocator when multiple subinterpreters rapidly allocate and free small objects.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the runtime resolution of a PEP 695 TypeVar alias containing a forward reference to an undefined class.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze why isinstance() fails on a Protocol decorated with @runtime_checkable if the target class dynamically generates methods.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the covariance of a generic Sequence containing a TypeVarTuple (PEP 646) when unpacked in a function signature.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a static type checker discrepancy where an overridden method with a contravariant argument is rejected by mypy.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the MRO traversal during __instancecheck__ on a generic abstract base class utilizing multiple mixins.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why typing.NewType creates a distinct type for static analysis but returns the original value at runtime without instantiation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the runtime overhead of PEP 695 generic classes when the type parameters are inspected via __class_getitem__.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace a ParamSpec resolution where a decorator alters the return type but preserves the target function's kwargs.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a recursive type alias definition that causes an infinite loop during get_type_hints() evaluation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the interaction between TypedDict and total=False when combined with Unpack in a function argument signature.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the state transition of a BINARY_OP instruction as the adaptive specializing interpreter converts it to BINARY_OP_ADD_FLOAT.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze why a highly polymorphic function prevents the PEP 659 specializing adaptive interpreter from optimizing its opcodes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a custom tracing profiler that miscalculates execution time due to CPython 3.11+ zero-cost exception handling tables.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the bytecode changes in Python 3.12 comprehensions that eliminate the need for nested function creation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of a match statement with complex guard clauses to visualize the generated jump table opcodes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why mutating the __dict__ of a class dynamically de-optimizes the inline cache of all its instances.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the exact memory layout changes of Python 3.11 frame objects being allocated on the C stack instead of the heap.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the LOAD_GLOBAL specialization process to see how built-in dictionary lookups are bypassed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a bytecode injection script that fails in 3.11 because it does not update the exception table offsets.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance degradation when a specialized CALL instruction encounters an unexpected keyword argument.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the invocation order of __set_name__ when a descriptor is instantiated inside a dynamically created type() class.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze why a descriptor implementing __get__ but not __set__ allows instance attributes to permanently shadow the descriptor.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a metaclass conflict where two base classes use different metaclasses that do not share a common ancestor.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the C3 linearization algorithm when a class inherits from two mixins that both override __prepare__.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of __init_subclass__ in a deep inheritance tree where a parent class fails to call super().<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a property defined on a metaclass is accessible on the class object but raises AttributeError on the instance.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory impact of overriding __new__ to return a pre-existing cached instance without breaking __init__.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a descriptor that uses weakref.WeakKeyDictionary to store state, but leaks memory when attached to unhashable instances.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the fallback lookup sequence when __getattribute__ raises AttributeError and triggers __getattr__.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the security implications of bypassing __getattribute__ by directly inspecting the object's gc.get_referents().<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the cancellation propagation in an asyncio.TaskGroup when a sibling task swallows asyncio.CancelledError.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the event loop iteration phase where call_soon schedules are executed relative to I/O selector callbacks.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an asyncio deadlock caused by a thread-safe future set_result() colliding with an event loop teardown.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the precise moment an async generator's aclose() method is scheduled when the generator is garbage collected.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the state of the asyncio loop's internal ready queue when a coroutine yields via asyncio.sleep(0) repeatedly.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a uvloop implementation drops UDP packets if the DatagramProtocol's datagram_received blocks the event loop.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the behavior of contextvars when an asyncio task is manually stepped using generator.send() instead of awaited.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a memory leak in asyncio.Condition where waiters are never removed from the internal deque after task cancellation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the socket selector registration process when asyncio.start_tls() upgrades a plain TCP connection.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the execution order of multiple Future callbacks added via add_done_callback() when the Future resolves.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the allocation path of a 256-byte object through the pymalloc arenas, pools, and blocks.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the fatal crash caused by calling Py_DECREF on an object while holding the GIL, triggering a nested destructor.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a C-extension memory leak where PyTuple_SetItem steals a reference but the extension already incremented it.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the behavioral differences between PyMem_Malloc and standard malloc regarding the GIL and CPython memory tracking.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the generation 2 garbage collection sweep to identify how cyclic references involving C-extension objects are handled.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why passing a Python string to a C function via ctypes.c_char_p is unsafe without keeping a strong Python reference.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the object header of a PyLongObject to understand how arbitrary precision integers are represented in memory.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a multithreading crash in a C-extension where PyGILState_Ensure is called from an OS thread not created by Python.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the borrowed reference mechanics of PyDict_GetItem to explain why the returned object suddenly disappears.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the impact on the global free list when millions of float objects are rapidly created and destroyed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the page fault behavior when a memory-mapped file (mmap) is sliced via a Python memoryview.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze why a multiprocessing.Pipe blocks indefinitely if the payload exceeds the OS pipe buffer size (e.g., 65536 bytes).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a socket.sendall() loop that throws BlockingIOError despite the socket being set to blocking mode.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the file descriptor exhaustion limits when asyncio.gather launches 10,000 HTTP requests simultaneously.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the signal propagation when a SIGINT is sent to a multiprocessing.Pool executing a CPU-bound C-extension.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why os.urandom() can block on older Linux kernels during early container startup in a Python script.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the race condition in os.makedirs(exist_ok=True) when two processes attempt to create the same nested directory.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a sqlite3 operational error (database is locked) occurring in a single-threaded async application.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the context switch overhead when threading.Thread is used for IO-bound work vs asyncio on a high-latency network.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the precision loss when using time.sleep() on Windows environments with a default timer resolution of 15.6ms.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the ast.NodeTransformer mutation where modifying a parent node invalidates the lineno attributes of its children.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the compilation phase where the CPython AST is converted into a Control Flow Graph (CFG) before bytecode emission.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an ast.literal_eval crash caused by an excessively nested tuple triggering the C-stack depth limit.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the syntax parser resolution of f-strings in Python 3.12, explaining how nested quotes are tokenized.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of compile() when generating an interactive code object (mode='single') versus a module (mode='exec').<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why dynamically injecting an ast.Import node requires manually populating the ctx (Load/Store) attributes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the structural pattern matching parser to understand how OR patterns (|) are flattened into AST nodes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a custom import hook (PEP 302) that fails because the returned AST module lacks a valid docstring node.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the optimization pass in the CPython compiler that folds constant mathematical expressions (e.g., 1 + 2 * 3).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the exact moment a SyntaxError is raised when an indentation error occurs inside a multi-line string literal.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the internal state of itertools.tee when one of the returned iterators advances 10,000 items ahead of the other.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory layout of struct.pack('!dH') to explain why padding bytes are inserted by default.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a collections.deque where mutating the deque during iteration raises RuntimeError, but popping does not.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance difference between heapq.heapify() and manually sorting a list for extracting the top 3 elements.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the cyclic dependency resolution in importlib when two modules attempt to import each other's functions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why weakref.proxy raises a ReferenceError on a dead object, whereas weakref.ref returns None.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the behavior of multiprocessing.shared_memory when a block is unlinked by one process while attached to another.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a subprocess.Popen deadlock caused by reading stdout and stderr sequentially instead of concurrently using communicate().<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of contextlib.ExitStack when three context managers are pushed, and the second one raises an exception.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the caching mechanism of re.compile and explain why compiling more than 512 distinct patterns degrades performance.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the resolution of __class__ assignment on a live object, explaining why changing from int to float is forbidden.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the result of float('inf') * 0.0 and trace the IEEE-754 nan resolution through the Python float object.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a scenario where id(a) == id(b) is true for two distinct objects that never exist in memory at the same time.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the behavior of a dict if an object's __hash__ returns a different value after the object is inserted.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of a finally block that contains a break statement, explaining why a raised exception is discarded.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why [[]] * 3 creates a list of identical references, while [[None]] * 3 behaves similarly but is often misinterpreted.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the MRO construction failure when creating a class that inherits from both a slotted class and a dict-based class.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an UnboundLocalError triggered by an augmented assignment (x += 1) inside a closure without the nonlocal keyword.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the frame unwinding process when sys.exit() is called inside an except Exception block.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the memory state when a running generator object is deleted using del without being exhausted or closed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution order between process.nextTick, Promise.resolve().then(), and setTimeout(0) in Node.js.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the event loop phases when an I/O callback schedules a setImmediate and a setTimeout with 0ms delay.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a microtask queue infinite loop caused by a Promise continually resolving itself recursively.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the exact moment a MutationObserver callback fires relative to requestAnimationFrame in the browser.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the queueing behavior of queueMicrotask versus an awaited Promise in an async function.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a massive synchronous while-loop blocks the Node.js libuv thread pool from executing pending network I/O.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the execution priority of MessageChannel ports compared to standard setTimeout macro-tasks.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a scenario where unhandled promise rejections fire globally before the local catch block is attached in the next tick.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the interleaving of async generator yields within the microtask queue.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate how the Node.js event loop behavior changes when running under the --experimental-worker flag.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the V8 hidden class (Shape) transitions when adding properties to an object in a different order.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the inline caching (IC) de-optimization that occurs when a function receives objects with different Shapes (Megamorphic).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a severe performance drop caused by deleting a property from an object, forcing V8 into dictionary mode.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the garbage collection difference between the V8 Scavenger (minor GC) and Mark-Sweep-Compact (major GC).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the memory layout of a V8 packed array (SMI_ELEMENTS) transitioning to a holey array (HOLEY_ELEMENTS).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why V8 avoids garbage collecting a closure's context if eval() is present anywhere inside the function.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the turbo-fan compiler optimization bailout when an arguments object is leaked outside its function scope.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a memory leak caused by a detached DOM element retaining references in the V8 heap snapshot.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the compilation of WebAssembly bytecode into machine code via V8's Liftoff and TurboFan compilers.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the string representation in V8 (ConsString vs SeqString) when performing massive string concatenations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the invariant violation thrown by a Proxy when attempting to return a different value for a non-configurable property.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the difference in `this` binding when invoking a method directly on a target versus through a Proxy.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a stack overflow caused by a Proxy get trap unconditionally accessing another property on the proxy itself.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the behavior of Reflect.construct compared to the new operator when dealing with dynamically bound contexts.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the revocation of a Proxy and explain what happens to pending async operations referencing the revoked proxy.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why wrapping a native DOM element like Date or HTMLElement in a Proxy strips its internal [[Class]] slots.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the execution of a Proxy set trap that returns false in strict mode versus non-strict mode.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a prototype chain pollution attempt intercepted by a Proxy setPrototypeOf trap.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the Reflect.defineProperty call inside a proxy trap enforcing type validation on an object.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance overhead of using Proxies for deep reactivity tracking in massive state trees.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution context transfer when an async generator uses the yield* operator to delegate to another async generator.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory retention of a generator function suspended indefinitely at a yield statement.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a for-await-of loop that skips elements because the underlying stream pushes data synchronously faster than the loop consumes.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the result of calling return() on a generator and how it interacts with try/finally blocks inside the generator.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the Promise resolution unwrapping when yielding a Promise inside an async generator.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why throwing an error via generator.throw() bypasses the local catch block if the generator has not called next() yet.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the behavior of Promise.allSettled when one of the passed iterables is a generator that throws synchronously.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an async stack trace limit where awaited errors lose their original caller context after multiple tick boundaries.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the state machine generated by Babel/TypeScript when transpiling async/await down to ES5 generator functions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the memory limits of retaining unresolved Promises in a massive Promise.race array.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of a FinalizationRegistry callback to identify when V8 actually reclaims the registered object.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze why keys in a WeakMap must be objects or non-registered Symbols, and why primitive values are rejected.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a memory leak where a closure retains the entire parent scope environment just to access a single variable.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the deterministic destruction limitations of JavaScript compared to RAII when managing WebGL textures.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the lifecycle of a SharedArrayBuffer spanning multiple Web Workers and analyze garbage collection boundaries.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why holding a WeakRef to a DOM node does not prevent the browser from detaching it from the rendering tree.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory overhead of creating millions of arrow functions in a loop versus binding a single prototype method.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a Node.js out-of-memory crash caused by a fast producer emitting data to a slow consumer stream without backpressure.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the V8 heap utilization during a massive JSON.parse operation of a 500MB payload.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the retention graph of an EventListener attached to the window object holding a reference to a destroyed UI component.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the asynchronous module resolution phase of an ECMAScript Module (ESM) graph containing a top-level await.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the live-binding behavior of ESM exports compared to the value-copy behavior of CommonJS module.exports.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a Node.js circular dependency where a CommonJS module receives an empty object instead of the initialized exports.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the caching mechanism of dynamic import() statements and how they interact with cache busting query parameters.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the initialization of import.meta.url across differently bundled chunks in a Webpack/Rollup build.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why synchronous require() calls cannot load an ESM module, throwing an ERR_REQUIRE_ESM error.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the execution context of the `this` keyword at the top level of an ESM module versus a CJS module.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a module scope leak where a variable declared without let/const/var accidentally becomes a global property.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the package.json conditional exports resolution when Node.js maps different files for require vs import.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance impact of deeply nested dynamic imports in a server-side rendered Node application.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of Atomics.wait and Atomics.notify to build a synchronous locking mechanism on a SharedArrayBuffer.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the structured clone algorithm's limitations when passing complex objects between the main thread and a Web Worker.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a data race in JavaScript where two Web Workers modify the same SharedArrayBuffer index without Atomics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the thread-pool saturation in Node.js when crypto.pbkdf2 is called concurrently across multiple requests.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the IPC (Inter-Process Communication) serialization overhead when using process.send() in a Node.js cluster.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a Web Worker cannot directly manipulate the DOM and must rely on postMessage synchronization.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory transfer mechanics of transferring an ArrayBuffer to a worker, rendering the original buffer detached.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a deadlock in a Node.js Worker Thread utilizing Atomics.wait synchronously on the main thread.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the lifecycle of a MessagePort passed through multiple nested iframe and Web Worker boundaries.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance difference between WebAssembly SIMD instructions and standard JS typed array manipulations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the Temporal Dead Zone (TDZ) initialization when a let variable is accessed before its lexical binding.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the variable hoisting behavior of var declarations inside a block scope versus let/const.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a closure loop bug where var bindings inside a setTimeout all reference the final value of the loop index.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the scoping rules of an eval() call executed indirectly (e.g., (0, eval)('...')) versus direct execution.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution context creation phase for a function utilizing default parameters that reference other parameters.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why the arguments object is not bound inside an arrow function and how it shadows the outer scope arguments.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the lexical binding of the `this` keyword in an arrow function returned from a dynamically bound standard function.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a ReferenceError caused by a class declaration being accessed before initialization in the same block.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the scope chain resolution when a nested function accesses a property defined globally via the window object.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the garbage collection of closures formed inside a massive switch statement with block-scoped variables.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the invocation of Symbol.toPrimitive when an object is coerced into a string versus a number.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the prototype chain lookup when an object's __proto__ is maliciously reassigned (Prototype Pollution).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an Object.defineProperty call that fails with a TypeError because the object is sealed via Object.seal().<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the behavior of Symbol.species when subclassing Array and calling array.map() to return the base type.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the property enumeration order of Object.keys() involving integer indices, string keys, and Symbols.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why NaN === NaN evaluates to false, but Object.is(NaN, NaN) evaluates to true.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the descriptor trap when attempting to use Object.freeze() on a Float32Array.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a scenario where an object property is non-writable, but its deeply nested properties remain mutable.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the resolution of Symbol.hasInstance when the instanceof operator is used on a custom class.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the serialization behavior of JSON.stringify when encountering undefined, Symbols, and BigInts.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the propagation of an AbortController signal through multiple nested fetch() requests.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the layout thrashing (forced synchronous layout) caused by reading element.offsetHeight immediately after setting it.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a Service Worker lifecycle issue where a new version remains in the 'waiting' state indefinitely.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the storage limits and eviction policies of IndexedDB compared to LocalStorage under high memory pressure.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the bubbling and capturing phases of a synthetic DOM event dispatched via element.dispatchEvent().<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why navigator.sendBeacon is more reliable for analytics than an asynchronous fetch() during the page unload event.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the rendering pipeline block caused by a synchronous XMLHttpRequest executed on the main thread.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a Content Security Policy (CSP) violation triggered by dynamically injecting an inline script tag.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the decoding pipeline of an HTMLCanvasElement context drawing an image tainted by cross-origin data (CORS).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the precision timing limitations of performance.now() due to browser mitigations against Spectre/Meltdown.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the lifetime variance difference between &'a T (covariant) and &'a mut T (invariant) during struct assignment.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the compilation failure when a Higher-Rank Trait Bound (for<'a>) conflicts with an explicit lifetime parameter.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a lifetime elision error in a function returning a reference to a dynamically created String inside a closure.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the contravariance of function pointer traits fn(&'a T) when passed to a higher-order function.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the lifetime expansion of a static string slice implicitly coerced to a shorter lifetime bound in a struct.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why the compiler rejects a self-referential struct without using Pin, focusing on move semantics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the error message generated by Non-Lexical Lifetimes (NLL) when a borrow is used conditionally inside a match arm.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a trait implementation where the associated type's lifetime must outlive the trait object itself.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the propagation of the 'static lifetime bound when spawning a thread using std::thread::spawn.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the lifetime requirements of returning an impl Trait that captures local references.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the memory move mechanics when passing a Box<T> into a function by value, invalidating the caller's binding.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the borrow checker's rejection of a mutable borrow occurring simultaneously with an immutable borrow.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a split borrow failure where two disjoint fields of a struct are borrowed mutably through a getter method.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the drop semantics when an object is partially moved out of a struct by destructuring.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of std::mem::drop to explain why it explicitly takes ownership of the value.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Reborrowing (*&mut T) allows bypassing strict ownership transfers in function calls.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the compiler optimization of move semantics (memcpy) when moving a large array versus a Boxed slice.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an issue where a closure implicitly captures a variable by mutable reference instead of by value (move).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the ownership transfer when a Result<String, Error> is mapped using Result::map_err.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the borrow checker rules applied to a match statement binding variables by reference (ref mut).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the undefined behavior triggered by casting a *mut T to a &mut T while another alias exists.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory layout guarantees provided by repr(C) versus the default Rust repr(Rust) ABI.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a segmentation fault caused by using std::mem::transmute to cast a smaller struct into a larger struct.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the interior mutability bypass implemented inside UnsafeCell to circumvent the borrow checker.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of a raw pointer dereference across an FFI boundary calling a C library.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why creating a slice from a raw pointer using std::slice::from_raw_parts requires trusting the length parameter.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the undefined behavior caused by dropping an uninitialized memory block instantiated via MaybeUninit::uninit().<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a data race in unsafe Rust where a raw pointer is sent across threads without Send/Sync bounds.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the pointer provenance rules violated when casting an integer address back to a raw pointer.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the safety invariants required when calling String::from_utf8_unchecked on a byte vector.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the structural pinning projection required to safely mutate a pinned field inside an async state machine.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the compilation of an async fn into a state machine enum containing overlapping local variable states.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a Future that hangs indefinitely because the Waker was not cloned and invoked by the reactor.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the memory safety guarantees of Pin<&mut T> preventing a self-referential generator from being moved.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the executor poll loop behavior when a Future returns Poll::Pending without registering a waker.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Box::pin is necessary to dynamically dispatch a trait object implementing Future.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the Send bounds requirement of a Future generated by an async block capturing a non-Send MutexGuard.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a runtime panic caused by blocking the async executor thread with a synchronous std::fs::read call.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the drop semantics of a cancelled Future (dropped before Poll::Ready) and its impact on async destructors.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the difference between Unpin and !Unpin traits and their impact on safe mutable access.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the dynamic dispatch mechanism through a vtable when invoking a method on a Box<dyn Trait>.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the Orphan Rule compilation error when attempting to implement a foreign trait on a foreign type.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a Trait object safety error caused by a trait method returning Self instead of a concrete type.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance overhead of dynamic dispatch (dyn Trait) versus monomorphization (impl Trait).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the resolution of associated types in a deeply nested Iterator trait implementation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why blanket implementations (impl<T> MyTrait for T) conflict with specific trait implementations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the use of PhantomData to signal generic type ownership rules to the drop checker.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an ambiguous method resolution error when two in-scope traits define a method with the same name.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of an auto-trait implementation (Send/Sync) and explain how it propagates through composite types.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the semantic difference between trait bounds using where clauses versus generic parameter bounds.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the exact byte alignment padding inserted by the compiler into a struct containing a u8 and a u64.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the Null Pointer Optimization (NPO) applied to Option<Box<T>> converting it to a single pointer size.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a memory leak intentionally created using Box::leak to obtain a 'static reference.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the Drop execution order of struct fields compared to local variables in a function scope.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of a custom Drop implementation that triggers a panic while unwinding from a previous panic.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Vec::reserve over-allocates memory using geometric growth to achieve amortized O(1) insertions.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the enum layout optimization (discriminant elision) when wrapping a NonZeroU32 in an Option.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a use-after-free vulnerability mitigated by Rust's drop checker strictly analyzing lifetime parameters.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the memory deallocation process when an Arc<T> strong count reaches zero, but weak references remain.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the stack size blowout caused by large arrays allocated directly in a recursive function without boxing.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the propagation of the Mutex poisoning state when a thread panics while holding a MutexGuard.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze why Rc<T> does not implement Send, preventing it from being transferred across thread boundaries.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a race condition resolved by using AtomicUsize::fetch_add with Ordering::SeqCst versus Ordering::Relaxed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the thread synchronization mechanics of an RwLock prioritizing readers versus writers.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of std::sync::mpsc channels to analyze unbounded queue memory consumption.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why a type containing a Cell<T> implements Send but strictly loses the Sync auto-trait.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory ordering requirements for building a lock-free ring buffer using Atomics.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a thread leak where a detached thread runs an infinite loop preventing the OS from reclaiming resources.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the lifecycle of a thread-local variable initialized via thread_local! macro.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the difference in memory barriers emitted by Ordering::Acquire and Ordering::Release.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the expansion of a declarative macro (macro_rules!) to evaluate token stream hygiene.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the compilation phase where a Procedural Macro generates an AST from a TokenStream.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a macro_rules! recursion limit error caused by an excessively deep TT-muncher pattern.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the span resolution rules in procedural macros when generating error messages mapping back to source code.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the evaluation of #[derive(Clone)] macro expansion on a struct containing non-Clone generic parameters.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why macro hygiene prevents a macro from accidentally capturing local variables defined in the caller's scope.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the syntactic restrictions of the expr vs stmt designators in declarative macro matching arms.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an attribute-like procedural macro that unintentionally strips documentation comments from the output stream.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the use of syn and quote crates to parse custom syntax inside a function-like procedural macro.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the impact of macro expansion on compile times when generating massive repetitive boilerplate code.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the state machine transition of a complex iterator chain (filter, map, flat_map) without allocation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the compilation error when a closure implementing FnOnce is called twice by the surrounding code.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a lazy evaluation trap where an Iterator::map closure side-effect is never executed because it wasn't consumed.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the ownership capture mechanics of the move keyword applied to a closure spawning a thread.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the execution of Iterator::fold versus Iterator::reduce when handling empty collections.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Iterator::collect requires a turbofish (::<Vec<_>>) when the target collection type cannot be inferred.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the performance difference between a manual for loop and an Iterator::for_each utilizing internal iteration.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug an IntoIterator implementation on a reference type (&'a MyStruct) instead of the owned type.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the exact sizing hints (size_hint) passed down an iterator chain to optimize Vec memory pre-allocation.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the behavioral nuances of Zip iterators when the two source iterators have mismatched lengths.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the dynamic reference counting increments when an Arc<T> is cloned and passed to a spawned thread.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the interior mutability mechanics of RefCell<T> triggering a runtime panic via borrow_mut() collision.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a memory leak caused by a cyclic reference graph formed purely using Rc<T> without Weak<T> pointers.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the copy-on-write optimization provided by Cow<'a, str> when passing both String and &str.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the Deref coercion sequence when accessing a method on a struct wrapped inside a Box<Rc<RefCell<T>>>.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nExplain why Cell<T> is restricted to types implementing Copy when performing get() operations.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nAnalyze the memory layout and allocation strategy of String versus &str slice references.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nDebug a BorrowMutError raised when a RefCell is borrowed mutably twice within the same lexical block.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nTrace the layout transformation when a thin pointer (&T) is cast into a fat pointer (&dyn Trait).<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}
+{"text": "<|im_start|>user\nEvaluate the performance implications of using standard HashMap versus BTreeMap for iterating sorted keys.<|im_end|>\n<|im_start|>assistant\n[NEEDS_GENERATION]<|im_end|>"}

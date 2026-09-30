@@ -1,0 +1,30 @@
+{"prompt": "Write a Python function that takes a list of integers and returns the longest increasing subsequence using dynamic programming.", "category": "func_gen", "difficulty": "beginner"}
+{"prompt": "Implement a thread-safe LRU cache in Python using OrderedDict and a threading.Lock.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Write a Python generator that yields prime numbers lazily using a sieve of Eratosthenes with incremental wheel factorization.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Create a Python context manager that times a block of code and logs the result, including memory usage via tracemalloc.", "category": "func_gen", "difficulty": "beginner"}
+{"prompt": "Implement a Python decorator that retries a function on exception with exponential backoff and jitter.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Write a Python class implementing a doubly-linked list with insert, delete, and reverse operations, all O(1) where applicable.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Build a Python dataclass that validates its fields at instantiation using __post_init__ and raises ValueError on invalid input.", "category": "func_gen", "difficulty": "beginner"}
+{"prompt": "Implement a Python async function that fetches multiple URLs concurrently using asyncio and aiohttp, with a semaphore limiting concurrency to 10.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Write a Python function that parses a CSV file lazily using the csv module and yields rows as typed namedtuples.", "category": "func_gen", "difficulty": "beginner"}
+{"prompt": "Create a Python descriptor class that enforces type checking and logs every attribute access on the instance.", "category": "func_gen", "difficulty": "advanced"}
+{"prompt": "Implement a Python singleton metaclass that is thread-safe and supports args passed to __init__ only on first call.", "category": "func_gen", "difficulty": "advanced"}
+{"prompt": "Write a Python function using functools.singledispatch that dispatches on the type of the second argument.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Build a Python pipeline using itertools that streams lines from a file, filters, maps, and writes to another file without loading everything into memory.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Implement a Python class that wraps a dict and emits notifications to observers on every mutation using weakref.WeakSet.", "category": "func_gen", "difficulty": "advanced"}
+{"prompt": "Write a Python function that converts a nested dict into a flat dict with dotted keys, and another that reverses the operation.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Debug this Python list comprehension: it produces duplicates because of a shared mutable default. Walk through each step and explain the root cause.", "category": "cot_debug", "difficulty": "intermediate"}
+{"prompt": "Trace this async/await coroutine chain and identify where the event loop stalls. Explain why awaiting a non-awaitable silently breaks the chain.", "category": "cot_debug", "difficulty": "advanced"}
+{"prompt": "Step through this Python decorator and find why the wrapped function loses its metadata. Show how functools.wraps fixes it and why.", "category": "cot_debug", "difficulty": "intermediate"}
+{"prompt": "Walk through this Python generator and explain why StopIteration is raised early. Identify the off-by-one in the yield condition.", "category": "cot_debug", "difficulty": "intermediate"}
+{"prompt": "Debug this Python recursion: identify the exact call depth where RecursionError is hit, and rewrite it as an iterative stack-based traversal.", "category": "cot_debug", "difficulty": "advanced"}
+{"prompt": "All Python iterables can be looped over. Generators are iterables. Evaluate whether all generators can be rewound, and write a Python proof-of-concept.", "category": "syllogism", "difficulty": "intermediate"}
+{"prompt": "If every Python class has an MRO, and some objects have no MRO, deduce whether all objects are classes. Provide a Python demonstration.", "category": "syllogism", "difficulty": "advanced"}
+{"prompt": "All Python context managers implement __enter__. Some objects implement __enter__ but not __exit__. Determine whether they qualify as context managers, with code.", "category": "syllogism", "difficulty": "intermediate"}
+{"prompt": "If all Python integers are immutable, and some immutable objects are interned, determine whether all integers are interned. Write a Python check using `is`.", "category": "syllogism", "difficulty": "intermediate"}
+{"prompt": "All Python sets are unordered. Frozen sets are sets. Determine whether frozen sets are unordered, with a Python demonstration.", "category": "syllogism", "difficulty": "beginner"}
+{"prompt": "Write a Python function that implements quicksort with in-place partitioning and a random pivot to avoid worst-case O(n^2).", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Create a Python enum.IntFlag subclass representing file permissions (read/write/execute for user/group/other) with a method to render as an octal string.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Implement a Python metaclass that automatically registers every subclass into a global registry keyed by class name.", "category": "func_gen", "difficulty": "advanced"}
+{"prompt": "Write a Python function using struct that packs a list of (name, age, score) tuples into a binary file and reads them back.", "category": "func_gen", "difficulty": "intermediate"}
+{"prompt": "Build a Python retry decorator that respects a Retry-After header when the underlying function raises an HTTP 429 error.", "category": "func_gen", "difficulty": "advanced"}
